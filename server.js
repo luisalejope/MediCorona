@@ -10,6 +10,10 @@ app.get('/', (req, res) => {
 	res.send('<h1>Ola k ase</h1>');
 });
 
+app.get('/salu2', (req, res) => {
+	res.send('<h1>Ola k ase 2.0</h1>');
+});
+
 //Set Port
 const PORT = process.env.PORT || 5000;
 app.listen(PORT);
