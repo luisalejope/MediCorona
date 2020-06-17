@@ -1,4 +1,4 @@
-# medicos_flutter
+# my_medico
 
 A new Flutter project.
 
