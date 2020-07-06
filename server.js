@@ -1,17 +1,48 @@
 const express = require('express');
 const app = express();
+const dotenv = require('dotenv');
+const connectDB = require('./config/db');
+
+//Load config
+dotenv.config({ path: './config/config.env' });
+
+//Connect to Mongo
+connectDB();
+
+//Modelo Paciente
+const Paciente = require('./models/Paciente');
 
 //Body Parser Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-//Index endpoint
-app.get('/', (req, res) => {
-	res.send('<h1>Ola k ase</h1>');
+// @route 	POST crearPaciente/
+// @desc 	Crear un paciente
+// @access 	?
+app.post('/crearPaciente', (req, res) => {
+	const newPaciente = new Paciente({
+		nombre: req.body.nombre,
+		apellido: req.body.apellido,
+		correo: req.body.correo,
+		tipoDoc: req.body.tipoDoc,
+		numeroDoc: req.body.numeroDoc,
+		ciudad: req.body.ciudad,
+		eps: req.body.eps,
+	});
+
+	newPaciente
+		.save()
+		.then((item) => res.status(200).json(item))
+		.catch((error) => res.status(400).json({ mensaje: error }));
 });
 
-app.get('/salu2', (req, res) => {
-	res.send('<h1>Ola k ase 2.0</h1>');
+app.get('/verUsuario/:id', (req, res) => {
+	const id = req.params.id;
+	//Buscar y retornar json
+});
+
+app.delete('/usuario/:id', (req, res) => {
+	const id = req.params.id;
 });
 
 //Set Port
