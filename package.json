@@ -4,7 +4,8 @@
   "description": "Backend test 1",
   "main": "server.js",
   "scripts": {
-    "local": "heroku local web"
+    "local": "heroku local web",
+    "deploy": "git push heroku-staging backend:master"
   },
   "repository": {
     "type": "git",
