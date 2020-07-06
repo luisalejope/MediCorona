@@ -36,15 +36,6 @@ app.post('/crearPaciente', (req, res) => {
 		.catch((error) => res.status(400).json({ mensaje: error }));
 });
 
-app.get('/verUsuario/:id', (req, res) => {
-	const id = req.params.id;
-	//Buscar y retornar json
-});
-
-app.delete('/usuario/:id', (req, res) => {
-	const id = req.params.id;
-});
-
 //Set Port
 const PORT = process.env.PORT || 5000;
 app.listen(PORT);
