@@ -1,0 +1,154 @@
+[33mcommit 3a8b7e616cb8c8af4388337fc7775e7ac9df13af[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: f8e0a21 af21a0a
+Author: josephrojas <36609457+josephrojas@users.noreply.github.com>
+Date:   Tue Jul 7 20:54:00 2020 -0500
+
+    Merge pull request #2 from pineapplexpres/PrimerasPantallas
+    
+    Primeras pantallas
+
+[33mcommit af21a0a50342cdec402eef84204100dacb04ff0c[m[33m ([m[1;31morigin/PrimerasPantallas[m[33m)[m
+Author: josephrojas <36609457+josephrojas@users.noreply.github.com>
+Date:   Tue Jul 7 20:51:35 2020 -0500
+
+    archivos de rama principal
+
+[33mcommit 9c3cc837b271c60f345e7aab32e0f9087c8ad648[m
+Author: josephrojas <36609457+josephrojas@users.noreply.github.com>
+Date:   Tue Jul 7 20:34:50 2020 -0500
+
+    cambios nuevo perfil
+
+[33mcommit a16e2ee0e5c17d9f4252a8767677ada58114044c[m
+Author: josephrojas <36609457+josephrojas@users.noreply.github.com>
+Date:   Tue Jul 7 20:33:10 2020 -0500
+
+    cambios nombre
+
+[33mcommit e9a61eaf8929178d759c8c6ef47d43a4d9d375e6[m
+Author: josephrojas <36609457+josephrojas@users.noreply.github.com>
+Date:   Tue Jul 7 20:31:27 2020 -0500
+
+    cambios nuevo perfil
+
+[33mcommit 9ab626b8fe08a4867e9be0603ebe1a85368171ec[m
+Author: LauraMayorga <62396719+LauraMayorga@users.noreply.github.com>
+Date:   Wed Jul 1 11:50:52 2020 -0500
+
+    pantallas
+
+[33mcommit f8e0a21ecf9245000bb9eae4e05436cf00a35d9e[m
+Author: Luis Alejandro Peña Murcia <luisalejandropena425@gmail.com>
+Date:   Fri Jun 19 18:45:05 2020 -0500
+
+    correciones
+
+[33mcommit 0df001b9e31c60562b333e132e9d3dd289da557a[m
+Author: josephrojas <36609457+josephrojas@users.noreply.github.com>
+Date:   Thu Jun 18 14:56:50 2020 -0500
+
+    intento numero 1000 de subir esto
+
+[33mcommit 6deca453647e6aa3d740797ae0b25d6ea003a95e[m
+Author: josephrojas <36609457+josephrojas@users.noreply.github.com>
+Date:   Thu Jun 18 14:48:14 2020 -0500
+
+    no funciono :(
+
+[33mcommit b0e907c2451e053f77c62d9b79d646e5fa113a3a[m
+Author: josephrojas <36609457+josephrojas@users.noreply.github.com>
+Date:   Thu Jun 18 14:18:01 2020 -0500
+
+    sera que ya sube?
+
+[33mcommit fdbd1e47c3a11041dc074aea70a69bf9bc363a1c[m
+Author: josephrojas <36609457+josephrojas@users.noreply.github.com>
+Date:   Thu Jun 18 11:44:10 2020 -0500
+
+    Ingreso repositorio
+
+[33mcommit d0d48dcfeed75462f1de92dab5121b0321116f91[m
+Author: josephrojas <36609457+josephrojas@users.noreply.github.com>
+Date:   Thu Jun 18 11:41:50 2020 -0500
+
+    Ingreso repositorio
+
+[33mcommit 56debd687e908702e2cfbe1943be654d9a668f80[m
+Author: AlejoV09 <66742641+AlejoV09@users.noreply.github.com>
+Date:   Wed Jun 17 15:20:17 2020 -0500
+
+    se agrega un main.dart
+    
+    se crea un main.dart y se elimina el metodo main del archivo PerfilEspecialistaAgregar.dart
+
+[33mcommit 65ad32ce0e5492b22cc77f2ed7d2db08345ca266[m
+Merge: c798af0 bdb63a0
+Author: AlejoV09 <66742641+AlejoV09@users.noreply.github.com>
+Date:   Wed Jun 17 15:15:50 2020 -0500
+
+    Merge branch 'master' of https://github.com/pineapplexpres/MediCorona
+
+[33mcommit c798af084eae98ba48c66dfcf6916a944477b3ef[m
+Author: AlejoV09 <66742641+AlejoV09@users.noreply.github.com>
+Date:   Wed Jun 17 15:15:11 2020 -0500
+
+    Update .DS_Store
+
+[33mcommit bdb63a010b6183dc129e270e2c35977c0a2eeea6[m
+Author: josephrojas <36609457+josephrojas@users.noreply.github.com>
+Date:   Wed Jun 17 11:58:37 2020 -0500
+
+    correccion carpetas
+
+[33mcommit 2e47e6879aa04280d7988e1ca5b4196ae7d58526[m
+Merge: 51c0509 77068ac
+Author: josephrojas <36609457+josephrojas@users.noreply.github.com>
+Date:   Wed Jun 17 11:56:14 2020 -0500
+
+    Merge branch 'master' of https://github.com/pineapplexpres/MediCorona
+
+[33mcommit 51c0509678ac53b6fb15e9e0d9c5c7d4a731f3eb[m
+Author: josephrojas <36609457+josephrojas@users.noreply.github.com>
+Date:   Wed Jun 17 11:55:31 2020 -0500
+
+    correccion carpetas
+
+[33mcommit 77068ac51f414db42c7cadae8782baa63c0c681c[m
+Author: AlejoV09 <66742641+AlejoV09@users.noreply.github.com>
+Date:   Tue Jun 16 13:05:23 2020 -0500
+
+    creacion carpeta medico y proyecto my medico
+    
+    Se crea la carpeta de medico y se sube un proyecto de flutter en el que ya se ha hecho la parte grafica de la pantalla perfil agregar especialista y se han creado carpetas para las pantallas perfil equipo 1,solicitud,perfil agregar especialista y seleccionar especialista
+
+[33mcommit e6198f0fde65ee522cf2f62a057ddcb01ce459fb[m
+Author: AlejoV09 <66742641+AlejoV09@users.noreply.github.com>
+Date:   Tue Jun 16 12:58:18 2020 -0500
+
+    Revert "creacion flutter"
+    
+    This reverts commit fef21f183df80253d02f3bcadae8b552832f754f.
+
+[33mcommit fef21f183df80253d02f3bcadae8b552832f754f[m
+Author: josephrojas <36609457+josephrojas@users.noreply.github.com>
+Date:   Mon Jun 15 16:18:13 2020 -0500
+
+    creacion flutter
+
+[33mcommit 7919500ba266dbc76762c52f35d007566a413d17[m
+Author: josephrojas <36609457+josephrojas@users.noreply.github.com>
+Date:   Mon Jun 15 14:40:43 2020 -0500
+
+    creacion flutter
+
+[33mcommit 5d9640b5c2bbb08bea5cc9b7238bf4fcb83c6e28[m[33m ([m[1;32mJosephDev[m[33m)[m
+Author: pineapplexpres <luisalejandropena425@gmail.com>
+Date:   Wed Jun 10 12:41:13 2020 -0500
+
+    otras
+
+[33mcommit 5f209991304c08fb71831d0475ccdbc29185f04e[m
+Author: pineapplexpres <luisalejandropena425@gmail.com>
+Date:   Wed Jun 10 12:26:46 2020 -0500
+
+    Carpetas sample

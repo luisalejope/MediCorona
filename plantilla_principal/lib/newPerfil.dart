@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'bottom.dart';
+
 class NewUser extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
@@ -421,7 +423,14 @@ class _NewUserState4 extends State<PerfilConfig> {
             margin: EdgeInsets.all(20.0),
             child: RaisedButton(
               color: Theme.of(context).primaryColor,
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => BottomBar(),
+                  ),
+                );
+              },
               child: Text("Siguiente"),
             ),
           ),

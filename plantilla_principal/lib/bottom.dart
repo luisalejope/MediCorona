@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'directory.dart';
 import 'displayWidget.dart';
+import 'perfilPaciente.dart';
 
 class BottomBar extends StatefulWidget {
   @override
@@ -13,7 +14,7 @@ class _BottomBarState extends State<BottomBar> {
     Directory(),
     DisplayWidget(Colors.green,2),
     DisplayWidget(Colors.grey,3),
-    DisplayWidget(Colors.amber,4),
+    Paciente(),
   ];
   @override
   Widget build(BuildContext context) {
