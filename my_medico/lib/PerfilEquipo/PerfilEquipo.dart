@@ -7,7 +7,7 @@ class PerfilEquipo extends StatefulWidget {
 }
 
 class PerfilEquipoState extends State<PerfilEquipo> {
-  String nombre = "pablo";
+  String nombre = "JOSE";
   CeldaInformacion celdaInformacion1 = new CeldaInformacion("a", "a");
   CeldaInformacion celdaInformacion2 = new CeldaInformacion("b", "b");
   CeldaInformacion celdaInformacion3 = new CeldaInformacion("c", "c");
