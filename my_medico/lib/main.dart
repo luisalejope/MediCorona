@@ -5,5 +5,5 @@ import 'PerfilEquipo/PerfilEquipo.dart';
 import 'SeleccionarEspecialista/SelEspecialistaEquipo.dart';
 
 void main() {
-  runApp(Solicitud());
+  runApp(PerfilEquipo());
 }
