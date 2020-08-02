@@ -84,10 +84,10 @@ class SeleccionarEspecialistaState extends State<SeleccionarEspecialista> {
             Center(
               child: RaisedButton(
                 onPressed: () {
-                  Navigator.push(
+                 /* Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) => ()),
-                  );
+                  );*/
                 },
                 child: Text("Buscar Especialista"),
               ),
