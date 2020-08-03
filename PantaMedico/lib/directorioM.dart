@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'busEsp.dart';
+import 'package:PantaMedico/PerfilEquipo/PerfilEquipo.dart';
 
 class DirectorioM extends StatefulWidget {
   @override
@@ -51,7 +52,15 @@ class _DirectorioM extends State<DirectorioM> {
               ),
               subtitle: Text('2348031980943'),
               trailing: Icon(Icons.keyboard_arrow_right),
-              onTap: () {},
+              onTap: () {
+
+                Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) => PerfilEquipo()),
+            );
+
+              },
             ),
             new Divider(
               height: 1.0,
