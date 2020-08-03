@@ -54,11 +54,7 @@ class _DirectorioM extends State<DirectorioM> {
               trailing: Icon(Icons.keyboard_arrow_right),
               onTap: () {
 
-                Navigator.push(
-              context,
-              MaterialPageRoute(
-                  builder: (context) => PerfilEquipo()),
-            );
+                PerfilEquipo(context);
 
               },
             ),
