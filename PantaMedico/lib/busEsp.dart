@@ -1,3 +1,4 @@
+import 'package:PantaMedico/PerfilEspecialistaAgregar/PerfilEspecialistaAgregar.dart';
 import 'package:flutter/material.dart';
 
 void BusEsp(BuildContext context) {
@@ -52,7 +53,9 @@ void BusEsp(BuildContext context) {
               'John Judah',
             ),
             trailing: Icon(Icons.keyboard_arrow_right),
-            onTap: () {},
+            onTap: () {
+              PerfilEspecialistaAgregar(context);
+            },
           ),
           new Divider(
             height: 1.0,
