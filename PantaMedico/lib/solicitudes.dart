@@ -37,11 +37,7 @@ class Solicitudes extends StatelessWidget {
               subtitle: Text('2348031980943'),
               trailing: Icon(Icons.keyboard_arrow_right),
               onTap: () {
-                Navigator.push(
-              context,
-              MaterialPageRoute(
-                  builder: (context) => Solicitud()),
-            );
+                Solicitud(context);
               },
             ),
             new Divider(
