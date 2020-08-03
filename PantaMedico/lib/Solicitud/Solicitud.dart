@@ -22,13 +22,19 @@ class SolicitudState extends State<Solicitud> {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
-            appBar: AppBar(
-              leading: RaisedButton(
-                onPressed: null,
-                child: Text("<", textAlign: TextAlign.center),
+            appBar: PreferredSize(
+          preferredSize: Size.fromHeight(50.0),
+          child: AppBar(
+            centerTitle: true,
+            backgroundColor: Colors.white,
+            title: const Text(
+              'Solicitudes',
+              style: TextStyle(
+                color: Colors.black,
               ),
-              title: Text(title),
             ),
+          ),
+        ),
             body: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
