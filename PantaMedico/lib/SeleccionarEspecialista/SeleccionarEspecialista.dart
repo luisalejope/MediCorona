@@ -18,136 +18,63 @@ void SeleccionarEspecialista(BuildContext context) {
         ),
       ),
       body: ListView(
-        children: <Widget>[
-          Container(
-            height: 55,
-            
-            child: Padding(
-              padding: const EdgeInsets.all(9.0),
-              child: TextField(
-                decoration: InputDecoration(
-                  fillColor: Colors.grey,
-                    labelText: "Search",
-                    hintText: "Search",
-                    prefixIcon: Icon(Icons.search),
-                    border: OutlineInputBorder(
-                        borderRadius: BorderRadius.all(
-                      Radius.circular(25.0),
-                    ))),
+          children: <Widget>[
+            ListTile(
+              leading: CircleAvatar(
+                backgroundColor: Colors.white,
+                child: Icon(Icons.person, color: Colors.black,)
+                //backgroundImage: AssetImage('images/avatar.png'),
               ),
-            ),
-          ),
-          Container(
-            height: 30,
-            color: Colors.grey[100],
-            child: Padding(
-              padding: const EdgeInsets.all(6.0),
-              child: Text(
-                'Especialidad',
-                style: TextStyle(color: Colors.blue),
+              title: Text(
+                'John Judah',
               ),
+              subtitle: Text('2348031980943'),
+              trailing: Icon(Icons.keyboard_arrow_right),
+              onTap: () {
+
+                
+
+              },
             ),
-          ),
-          ListTile(
-            title: Text(
-              'John Judah',
+            new Divider(
+              height: 1.0,
+              indent: 1.0,
             ),
-            trailing: Icon(Icons.keyboard_arrow_right),
-            onTap: () {},
-          ),
-          new Divider(
-            height: 1.0,
-            indent: 1.0,
-          ),
-          ListTile(
-            title: Text(
-              'John Judah',
-            ),
-            trailing: Icon(Icons.keyboard_arrow_right),
-            onTap: () {},
-          ),
-          new Divider(
-            height: 1.0,
-            indent: 1.0,
-          ),
-          ListTile(
-            title: Text(
-              'John Judah',
-            ),
-            trailing: Icon(Icons.keyboard_arrow_right),
-            onTap: () {},
-          ),
-          new Divider(
-            height: 1.0,
-            indent: 1.0,
-          ),
-          ListTile(
-            title: Text(
-              'John Judah',
-            ),
-            trailing: Icon(Icons.keyboard_arrow_right),
-            onTap: () {},
-          ),
-          new Divider(
-            height: 1.0,
-            indent: 1.0,
-          ),
-          Container(
-            height: 30,
-            color: Colors.grey[100],
-            child: Padding(
-              padding: const EdgeInsets.all(6.0),
-              child: Text(
-                'Especialidad 2',
-                style: TextStyle(color: Colors.blue),
+            ListTile(
+              leading: CircleAvatar(
+                backgroundColor: Colors.white,
+                child: Icon(Icons.person, color: Colors.black,)
+                //backgroundImage: AssetImage('images/avatar_purple.png'),
               ),
+              title: Text('Bisola Akanbi'),
+              subtitle: Text('2348031980943'),
+              trailing: Icon(Icons.keyboard_arrow_right),
+              onTap: () {
+                Text('Another data');
+              },
+              onLongPress: () {
+                Text('Data');
+              },
             ),
-          ),
-          ListTile(
-            title: Text(
-              'John Judah',
+            new Divider(
+              height: 1.0,
+              indent: 1.0,
             ),
-            trailing: Icon(Icons.keyboard_arrow_right),
-            onTap: () {},
-          ),
-          new Divider(
-            height: 1.0,
-            indent: 1.0,
-          ),
-          ListTile(
-            title: Text(
-              'John Judah',
+            ListTile(
+              leading: CircleAvatar(
+                backgroundColor: Colors.white,
+                child: Icon(Icons.person, color: Colors.black,)
+                //backgroundImage: AssetImage('images/avatar_brown.png'),
+              ),
+              title: Text('Eghosa Iku'),
+              subtitle: Text('2348031980943'),
+              trailing: Icon(Icons.keyboard_arrow_right),
             ),
-            trailing: Icon(Icons.keyboard_arrow_right),
-            onTap: () {},
-          ),
-          new Divider(
-            height: 1.0,
-            indent: 1.0,
-          ),
-          ListTile(
-            title: Text(
-              'John Judah',
+            new Divider(
+              height: 1.0,
+              indent: 1.0,
             ),
-            trailing: Icon(Icons.keyboard_arrow_right),
-            onTap: () {},
-          ),
-          new Divider(
-            height: 1.0,
-            indent: 1.0,
-          ),
-          ListTile(
-            title: Text(
-              'John Judah',
-            ),
-            trailing: Icon(Icons.keyboard_arrow_right),
-            onTap: () {},
-          ),
-          new Divider(
-            height: 1.0,
-            indent: 1.0,
-          ),
-          Center(
+            Center(
               child: RaisedButton(
                 onPressed: () {
                   /*Navigator.push(
@@ -158,8 +85,8 @@ void SeleccionarEspecialista(BuildContext context) {
                 child: Text("Buscar Especialista"),
               ),
             ),
-        ],
-      ),
+          ],
+        ),
     );
   }));
 }
