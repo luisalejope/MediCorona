@@ -21,18 +21,30 @@ class InformacionPE extends StatelessWidget {
           child: Text(
             nombre,
             textAlign: TextAlign.center,
-            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 40),
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22),
           ),
         ),
-        SizedBox(height: 20),
+        SizedBox(height: 10),
         CeldaInformacion(celdaInformacion1.title, celdaInformacion1.info),
-        SizedBox(height: 20),
+        new Divider(
+          height: 1.0,
+          indent: 1.0,
+        ),
         CeldaInformacion(celdaInformacion2.title, celdaInformacion2.info),
-        SizedBox(height: 20),
+        new Divider(
+          height: 1.0,
+          indent: 1.0,
+        ),
         CeldaInformacion(celdaInformacion3.title, celdaInformacion3.info),
-        SizedBox(height: 20),
+        new Divider(
+          height: 1.0,
+          indent: 1.0,
+        ),
         CeldaInformacion(celdaInformacion4.title, celdaInformacion4.info),
-        SizedBox(height: 20),
+        new Divider(
+          height: 1.0,
+          indent: 1.0,
+        ),
         CeldaInformacion(celdaInformacion5.title, celdaInformacion5.info),
       ],
     );
