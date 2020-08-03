@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import './SelEspecialistaEquipo.dart';
-
+import 'package:PantaMedico/busEsp.dart';
 void SeleccionarEspecialista(BuildContext context) {
   Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) {
     return Scaffold(
@@ -77,10 +76,7 @@ void SeleccionarEspecialista(BuildContext context) {
             Center(
               child: RaisedButton(
                 onPressed: () {
-                  /*Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => ()),
-                  );*/
+                  BusEsp(context);
                 },
                 child: Text("Buscar Especialista"),
               ),
