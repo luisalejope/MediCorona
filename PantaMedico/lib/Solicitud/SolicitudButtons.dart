@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:PantaMedico/SeleccionarEspecialista/SeleccionarEspecialista.dart';
+
 class SolicitudButtons extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -25,3 +26,4 @@ class SolicitudButtons extends StatelessWidget {
     );
   }
 }
+
