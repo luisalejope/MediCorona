@@ -9,11 +9,7 @@ class SolicitudButtons extends StatelessWidget {
       children: <Widget>[
         RaisedButton(
           onPressed: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(
-                  builder: (context) => SeleccionarEspecialista()),
-            );
+            SeleccionarEspecialista(context);
           },
           child: Text("Remitir"),
         ),
